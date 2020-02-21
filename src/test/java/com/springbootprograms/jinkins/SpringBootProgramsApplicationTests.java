@@ -15,6 +15,7 @@ class SpringBootProgramsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Execute logger ....");
+		logger.info("Execute logger second statement......");
 		assertEquals(true, true);
 	}
 
