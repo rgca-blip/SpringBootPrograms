@@ -13,7 +13,7 @@ class SpringBootProgramsApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(SpringBootProgramsApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	//void contextLoads() {
 		logger.info("Execute logger ....");
 		logger.info("Execute logger second statement......");
 		assertEquals(true, true);
